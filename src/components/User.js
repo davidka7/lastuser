@@ -9,7 +9,7 @@ function User({ match, state }) {
       <>
         <img
           alt="medium"
-          style={{ width: "60%" }}
+          style={{ width: "50%" }}
           src={`${newArr[0].picture.large}`}
         />
 

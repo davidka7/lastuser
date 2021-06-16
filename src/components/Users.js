@@ -5,7 +5,7 @@ function Users({ user }) {
     <div className="card">
       <img
         alt="pics"
-        style={{ width: "40%" }}
+        style={{ width: "35%" }}
         src={`${user.picture.thumbnail}`}
       />
       <div>
