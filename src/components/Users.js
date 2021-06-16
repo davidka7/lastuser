@@ -4,7 +4,7 @@ function Users({ user }) {
   return (
     <div className="card">
       <img
-        alt="image"
+        alt="pics"
         style={{ width: "40%" }}
         src={`${user.picture.thumbnail}`}
       />

@@ -2,7 +2,7 @@ import "./Components.css";
 
 function User({ match, state }) {
   const newArr = state.array.filter(
-    (user) => user.name.first == match.params.name
+    (user) => user.name.first === match.params.name
   );
   return (
     <div className="user">
